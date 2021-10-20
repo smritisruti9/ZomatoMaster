@@ -1,0 +1,45 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.10",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "path-parse": "^1.0.7",
+    "regenerate": "^1.4.2",
+    "regenerate-unicode-properties": "^9.0.0",
+    "regenerator-runtime": "^0.13.9",
+    "regenerator-transform": "^0.14.5",
+    "regexpu-core": "^4.8.0",
+    "regjsgen": "^0.5.2",
+    "regjsparser": "^0.7.0",
+    "resolve": "^1.20.0",
+    "source-map": "^0.5.7",
+    "supports-color": "^5.5.0",
+    "to-fast-properties": "^2.0.0",
+    "unicode-canonical-property-names-ecmascript": "^2.0.0",
+    "unicode-match-property-ecmascript": "^2.0.0",
+    "unicode-match-property-value-ecmascript": "^2.0.0",
+    "unicode-property-aliases-ecmascript": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "nodemon": "^2.0.13"
+  },
+  "scripts": {
+    "start": "babel-node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
